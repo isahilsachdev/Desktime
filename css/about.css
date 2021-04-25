@@ -1,0 +1,227 @@
+body {
+  padding: 0%;
+  margin: 0%;
+}
+.line {
+  border-left: dotted 6px rgb(182, 180, 180);
+  height: 230px;
+  position: relative;
+  left: 50%;
+  top: 35px;
+}
+.square {
+  height: 10px;
+  width: 10px;
+  border: #5fb92a 8px solid;
+  border-radius: 15px;
+  position: absolute;
+  left: 49.3%;
+}
+.flaxx {
+  /* border: 1px black solid; */
+  width: 70%;
+  display: flex;
+  flex-direction: row;
+  margin: 40px auto;
+  justify-content: space-between;
+}
+.flaxx-item {
+  border: dotted #f3f4f5 1px;
+  width: 41%;
+}
+.text {
+  text-align: right;
+  font-family: sans-serif;
+  font-size: 16px;
+  line-height: 150%;
+  color: #6b7179;
+}
+.heading {
+  text-align: right;
+  font-size: 21px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bolder;
+  color: #404751;
+}
+.timeline {
+  color: #5fb92a;
+  text-align: right;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bolder;
+}
+.textt-align {
+  text-align: left;
+}
+.margin-rightt {
+  margin-right: 170px;
+}
+.timeline-a {
+  color: #5fb92a;
+  text-decoration: none;
+}
+.timeline-a:hover {
+  text-decoration: underline;
+  color: green;
+}
+.time-line {
+  background-color: #f3f4f5;
+  padding: 25px 0px;
+}
+.videoif > iframe {
+  width: 560px;
+  height: 315px;
+  margin-left: 340px;
+}
+.videoif {
+  margin: 70px;
+}
+
+/* <--bottom--> */
+.bottomm {
+  width: 99.5%;
+  margin: 40px 0px;
+  background-image: url(https://desktime.com/images/bg-green.png?2797596dfad40c941487d4a4dbaa9370);
+  background-size: 300px 300px;
+}
+.bottomm-center {
+  /* border: 1px black solid; */
+  width: 47%;
+  height: 280px;
+  text-align: center;
+  margin: auto;
+  padding: 50px 0px;
+}
+.bottom-text-heading {
+  font-size: 35px;
+  font-family: sans-serif;
+  font-weight: bolder;
+  color: white;
+}
+.buttoon {
+  font-size: 30px;
+  font-family: sans-serif;
+  font-weight: bold;
+  color: #3b9705;
+  background-color: white;
+  padding: 25px 50px;
+  width: fit-content;
+  margin: auto;
+  cursor: pointer;
+}
+.bottom-text {
+  color: white;
+  font-family: sans-serif;
+}
+
+/* about us enter first page// */
+
+.whole-section-container {
+  background: url('https://desktime.com/assets/img/about/bg@2x.png'),
+    url('https://desktime.com/images/head-bg.jpg?88098c927cf353761f37821ac7626853');
+  background-color: #f3f4f5;
+  background-position: 0px 230px, 0px 0px;
+  background-repeat: no-repeat;
+  background-size: contain, auto;
+  text-align: center;
+  color: white;
+}
+.first-section-container {
+  height: 500px;
+  width: 90%;
+  background-color: white;
+  margin: auto;
+  display: flex;
+  justify-content: space-evenly;
+
+  box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.1);
+}
+.fllax-item {
+  text-align: left;
+  width: 42%;
+  /* border: black 1px dotted; */
+  padding: 60px 0px;
+  height: 80%;
+}
+.fllax-item > img {
+  width: 100%;
+  margin-top: 30px;
+}
+.first-section-head {
+  font-family: sans-serif;
+  color: #404751;
+  font-size: 35px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+.first-section-text {
+  font-family: sans-serif;
+  line-height: 150%;
+  color: #6b7179;
+}
+.topp-heading {
+  width: 100%;
+  font-family: sans-serif;
+}
+.sectionn-text {
+  margin-top: 0px;
+}
+.sectionn-text > h1 {
+  font-size: 50px;
+  margin: 10px 0px 20px 0px;
+}
+.sectionn-text > p {
+  font-size: 16px;
+
+  margin: 0px 0px 150px 0px;
+  font-family: sans-serif;
+}
+.first-section-text > a {
+  text-decoration: none;
+  color: #5fb92a;
+}
+.first-section-text > a:hover {
+  text-decoration: underline;
+  color: #5fb92a;
+}
+.divide-text {
+  text-align: center;
+  padding: 90px 0px 20px 0px;
+  background-color: #f3f4f5;
+  font-size: 35px;
+  font-family: sans-serif;
+  font-weight: bold;
+  color: #404751;
+}
+
+/* <--nav--> */
+
+.nonee {
+  height: 60px;
+  margin-right: 50px;
+}
+.nonee > div {
+  float: right;
+  margin: 30px 5px;
+}
+.nonee > div > a {
+  text-decoration: none;
+  color: white;
+  font-size: 15px;
+  margin-right: 25px;
+}
+.nonee > div > a:hover {
+  text-decoration: underline;
+}
+.nonee > div:nth-child(1) {
+  float: left;
+  margin-top: 5px;
+}
+.topmost_line {
+  background-color: #5fb92a;
+  height: 3px;
+}
+.desktime_logo {
+  width: 150px;
+  height: 70px;
+  margin-left: 120px;
+}

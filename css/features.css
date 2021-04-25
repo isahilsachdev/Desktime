@@ -1,0 +1,194 @@
+body {
+  /* width: 100%; */
+  margin: 0%;
+  padding: 0%;
+}
+.f_1 {
+  height: 400px;
+  background: url('https://desktime.com/images/head-bg.jpg?88098c927cf353761f37821ac7626853');
+  background-size: contain;
+  text-align: center;
+  color: white;
+  background-color: gray;
+}
+.f_1 > div > a {
+  color: white;
+  margin: 20px 15px;
+  font-size: 20px;
+  float: right;
+  height: 30px;
+  text-decoration: none;
+}
+.f_1 > div > a:hover {
+  text-decoration: underline;
+}
+
+/* .f_1 > div > a:nth-child(2) {
+  background-color: green;
+} */
+.f_1 > div > div > img {
+  width: 30px;
+  height: 30px;
+
+  margin-top: 20px;
+}
+.f_1 > div > div {
+  float: left;
+  margin: 5px 50px;
+  font-size: 25px;
+}
+.f_1 > div > h1 {
+  font-size: 50px;
+  margin: 30px;
+}
+.f_1 > div h3 {
+  font-size: 20px;
+  padding: 10px;
+  line-height: 1.25;
+}
+.f_2 {
+  display: flex;
+  width: 1200px;
+  margin: 20px auto;
+}
+.f_2 > div {
+  /* float: left; */
+  margin: 50px;
+  text-align: center;
+}
+.f_2 > div > img {
+  width: 150px;
+  height: 150px;
+}
+.f_2 > div:nth-child(1) {
+  margin-top: 60px;
+}
+.f_2 > div > p {
+  color: rgb(238, 229, 229);
+  font-size: 20px;
+}
+.f_3 {
+  background-color: rgb(216, 213, 213);
+  border: 1px solid black;
+  height: 600px;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  margin: 20px auto;
+  /* padding-left: 120px; */
+}
+.the_h1 {
+  font-size: 40px;
+  padding: 30px;
+  /* text-align: center; */
+  color: #333;
+  width: fit-content;
+  margin: 20px auto;
+  font-size: 40px;
+}
+.c_l {
+  clear: left;
+}
+.f_3 > div {
+  float: left;
+  background-color: white;
+  width: 300px;
+  border: 1px solid black;
+  height: 60px;
+  margin: 10px 40px 30px 50px;
+}
+
+.f_3 > div > img {
+  height: 45px;
+  width: 45px;
+  float: left;
+}
+.f_3 > div > p {
+  font-size: 19px;
+  color: rgb(80, 223, 80);
+  float: left;
+}
+.clear {
+  clear: both;
+}
+.my_demo {
+  background-color: rgb(240, 232, 232);
+  height: 480px;
+  width: 100%;
+  margin-top: 50px;
+}
+.my_demo > div > img {
+  width: 300px;
+  height: 300px;
+  margin: 50px auto;
+  margin-top: 25px;
+}
+.my_demo > .fl_text {
+  float: left;
+  margin: 15px 100px;
+}
+.my_demo > .fl_text {
+  width: fit-content;
+}
+.my_demo > div > h1 {
+  font-size: 40px;
+  font-family: Geogrotesque, sans-serif;
+  text-align: left;
+  margin-top: 30px;
+}
+.my_demo > div > p {
+  font-size: 25px;
+  color: gray;
+  font-family: Geogrotesque, sans-serif;
+  line-height: 1.5;
+  text-align: left;
+  margin-top: 30px;
+}
+.my_demo > div > div {
+  background-color: #5fb92a;
+  width: fit-content;
+  height: 30px;
+  padding: 8px 7px;
+  font-size: 23px;
+  color: white;
+  border-radius: 5px;
+  text-align: left;
+  margin-top: 30px;
+}
+.indepth_box,
+.blue_box,
+.green_box,
+.black_box {
+  height: 180px;
+  width: 100%;
+  background-color: #333;
+  margin: 50px 0px;
+  color: white;
+  text-align: center;
+}
+
+.indepth_box > h1,
+.green_box > h1,
+.black_box > h1 {
+  padding: 60px;
+  font-size: 40px;
+}
+.when_no_bg {
+  background-color: white;
+}
+.blue_box {
+  background-color: #007dbf;
+  height: 350px;
+}
+.blue_box > * {
+  float: left;
+}
+.blue_box > div > img {
+  margin: 130px;
+}
+.blue_box > div > h1 {
+  margin-top: 130px;
+}
+.green_box {
+  background-color: #5fb92a;
+}

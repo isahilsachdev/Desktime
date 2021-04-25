@@ -1,0 +1,582 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="../css/other.css" />
+    <link rel="stylesheet" href="../css/features.css" />
+  </head>
+  <body>
+    <!-- //starting features -->
+    <div class="f_1">
+      <div>
+        <div>
+          <img
+            src="data:image/jpeg;base64,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"
+          />
+          DeskTime
+        </div>
+        <a href="C:\Users\ASUS\sahil\unit 1 desktime project\html\features.html"
+          >My DeskTime</a
+        >
+        <a href="C:\Users\ASUS\sahil\unit 1 desktime project\html\features.html"
+          >Blog</a
+        >
+        <a href="C:\Users\ASUS\sahil\unit 1 desktime project\html\features.html"
+          >FAQ</a
+        >
+        <a href="C:\Users\ASUS\sahil\unit 1 desktime project\html\about.html"
+          >About us</a
+        >
+        <a href="C:\Users\ASUS\sahil\unit 1 desktime project\html\features.html"
+          >Pricing
+        </a>
+        <a href="C:\Users\ASUS\sahil\unit 1 desktime project\html\features.html"
+          >Features</a
+        >
+        <a href="C:\Users\ASUS\sahil\unit 1 desktime project\html\features.html"
+          >Demo</a
+        >
+      </div>
+      <div class="clear"></div>
+      <div>
+        <h1>
+          DeskTime features to help <br />
+          you excel
+        </h1>
+        <h3>
+          Useful time and productivity tracking tools to help you <br />
+          and your team reach new productivity levels
+        </h3>
+      </div>
+    </div>
+    <div class="clear"></div>
+
+    <div class="f_2">
+      <div>
+        <img src="https://desktime.com/assets/img/features/new/boost@2x.png" />
+        <h2>Boost productivity by 30%</h2>
+        <p>Identify and eliminate inefficient <br />habits.</p>
+      </div>
+      <div>
+        <img
+          src="https://desktime.com/assets/img/features/new/productivity@2x.png"
+        />
+        <h2>Stay organized and in control</h2>
+        <p>Manage your team and track projects <br />in one place.</p>
+      </div>
+      <div>
+        <img
+          src="https://desktime.com/assets/img/features/new/time-tracking@2x.png"
+        />
+        <h2>Save time and manual work</h2>
+        <p>
+          No manual timesheets that take time <br />
+          to fill out and are never 100% reliable.
+        </p>
+      </div>
+    </div>
+    <div class="clear"></div>
+
+    <!-- //destime solutions -->
+
+    <div class="f_3">
+      <h1 class="the_h1">DeskTime solutions</h1>
+
+      <div>
+        <img
+          src="https://desktime.com/assets/img/features/new/icons/time.svg"
+        />
+        <p>Automatic time tracking</p>
+      </div>
+      <div>
+        <img
+          src="https://desktime.com/assets/img/features/new/icons/document.svg"
+        />
+        <p>Offline time tracking</p>
+      </div>
+      <div>
+        <img
+          src="https://desktime.com/assets/img/features/new/icons/cost.svg"
+        />
+        <p>Private time option</p>
+      </div>
+      <div class="c_l">
+        <img
+          src="https://desktime.com/assets/img/features/new/icons/absence.svg"
+        />
+        <p>Document title tracking</p>
+      </div>
+      <div>
+        <img
+          src="https://desktime.com/assets/img/features/new/icons/screen.svg"
+        />
+        <p>Pomodoro timer</p>
+      </div>
+      <div>
+        <img
+          src="https://desktime.com/assets/img/features/new/icons/offline.svg"
+        />
+        <p>Invoicing</p>
+      </div>
+      <div class="c_l">
+        <img
+          src="https://desktime.com/assets/img/features/new/icons/pomodoro.svg"
+        />
+        <p>Cost calculation</p>
+      </div>
+      <div>
+        <img
+          src="https://desktime.com/assets/img/features/new/icons/contact.svg"
+        />
+        <p>Team's contacts</p>
+      </div>
+      <div>
+        <img
+          src="https://desktime.com/assets/img/features/new/icons/integrate.svg"
+        />
+        <p>Custom reports</p>
+      </div>
+      <div class="c_l">
+        <img src="https://desktime.com/assets/img/features/new/icons/url.svg" />
+        <p>Absence calendar</p>
+      </div>
+      <div>
+        <img
+          src="https://desktime.com/assets/img/features/new/icons/project.svg"
+        />
+        <p>Third-party Integrations</p>
+      </div>
+      <div>
+        <img
+          src="https://desktime.com/assets/img/features/new/icons/private.svg"
+        />
+        <p>Shift Scheduling</p>
+      </div>
+    </div>
+    <!-- boxes -->
+    <div class="my_demo when_no_bg">
+      <div class="fl_text">
+        <h1>Automatic time tracking</h1>
+        <p>
+          DeskTime time tracker starts and stops working <br />
+          when you do, from the minute you turn on the <br />computer, to the
+          minute you turn it off. No <br />manual data entries - DeskTime tracks
+          and<br />
+          calculates productivity automatically for you. So <br />that you can
+          rely 100% on the data you see.
+        </p>
+        <div>More about time tracking</div>
+      </div>
+      <div class="fl_text">
+        <img
+          src="https://desktime.com/assets/img/features/new/automatic-time-tracking@2x.png"
+        />
+      </div>
+    </div>
+
+    <div class="clear"></div>
+    <div class="indepth_box">
+      <h1>Get an in-depth view of your team’s workday</h1>
+    </div>
+    <div class="clear"></div>
+
+    <div class="my_demo when_no_bg">
+      <div class="fl_text">
+        <img src="https://desktime.com/assets/img/features/new/urls@2x.png" />
+      </div>
+      <div class="fl_text">
+        <h1>URL and app tracking</h1>
+        <p>
+          See what websites, programs, and applications <br />
+          your employees use, and categorize them into<br />
+          productive or unproductive for completing their<br />
+          work tasks. Through such internet usage <br />
+          monitoring, see how your employees spend their<br />
+          days, as well as each person's average<br />
+          productivity.
+        </p>
+        <div>More about URL</div>
+      </div>
+    </div>
+    <div class="clear"></div>
+
+    <div class="my_demo">
+      <div class="fl_text">
+        <h1>Document title tracking</h1>
+        <p>
+          Know which tasks your team is working on when <br />they use specific
+          programs, like Excel, Word,<br />
+          Photoshop, etc. Instead of just displaying the<br />
+          total time spent on the program, DeskTime will <br />
+          also record titles of documents or files and time <br />spent on each
+          of them.
+        </p>
+        <div>More about title tracking</div>
+      </div>
+      <div class="fl_text">
+        <img
+          src="https://desktime.com/assets/img/features/new/documents@2x.png"
+        />
+      </div>
+    </div>
+
+    <div class="blue_box">
+      <div>
+        <img src="https://desktime.com/assets/img/features/new/capterra.svg" />
+      </div>
+      <div>
+        <h1>DeskTime</h1>
+        <h2>
+          Reviews and ratings from real users on Capterra <br />
+          - software rating platform.
+        </h2>
+      </div>
+    </div>
+    <div class="clear"></div>
+
+    <div class="my_demo">
+      <div class="fl_text">
+        <img
+          src="https://desktime.com/assets/img/features/new/screenshots@2x.png"
+        />
+      </div>
+      <div class="fl_text">
+        <h1>Auto screenshots</h1>
+        <p>
+          Activate the screenshots feature for a more <br />detailed view of
+          your team’s efficiency and for <br />
+          monitoring remote employees. Every 5, 10, 15 or <br />
+          30 minutes DeskTime will take a screenshot <br />(regular or blurred)
+          of what everyone is working <br />
+          on and automatically highlight shots that have<br />
+          caught unproductive activities..
+        </p>
+        <div>More about screenshots</div>
+      </div>
+    </div>
+    <div class="clear"></div>
+    <div class="my_demo when_no_bg">
+      <div class="fl_text">
+        <h1>Offline time tracking</h1>
+        <p>
+          Collect accurate data about the time spent away <br />from the work
+          computer. Specify the reasons for<br />
+          absence and put them down as productive,<br />
+          unproductive, or neutral. That way, you'll have a <br />more precise
+          overview of your team's workload,<br />
+          time management, and productivity.
+        </p>
+        <div>More about time tracking</div>
+      </div>
+      <div class="fl_text">
+        <img
+          src="https://desktime.com/assets/img/features/new/offline-time@2x.png"
+        />
+      </div>
+    </div>
+    <div class="clear"></div>
+    <div class="green_box">
+      <h1>Be 100% in control when managing your projects</h1>
+    </div>
+    <div class="clear"></div>
+
+    <div class="my_demo">
+      <div class="fl_text">
+        <img
+          src="https://desktime.com/assets/img/features/new/projects@2x.png"
+        />
+      </div>
+      <div class="fl_text">
+        <h1>Project time tracking</h1>
+        <p>
+          Track time of individual projects and tasks. Get<br />
+          an idea of the status of your projects, estimate <br />the time
+          required for similar projects in the <br />
+          future, and bill your clients accurately for the <br />
+          work done.
+        </p>
+        <div>More about Project time</div>
+      </div>
+    </div>
+
+    <div class="clear"></div>
+    <div class="my_demo when_no_bg">
+      <div class="fl_text">
+        <h1>
+          Cost calculation and <br />
+          project billing
+        </h1>
+        <p>
+          Know how much each project cost to the <br />
+          company and how much you should charge your <br />
+          customers with the integrated time billing <br />feature. Set your and
+          the team's hourly rates,<br />
+          and DeskTime will automatically calculate project <br />
+          costs based on time spent working on it.
+        </p>
+      </div>
+      <div class="fl_text">
+        <img src="https://desktime.com/assets/img/features/new/cost@2x.png" />
+      </div>
+    </div>
+    <div class="clear"></div>
+    <div class="black_box">
+      <h1>Choose an employee-friendly time tracking app</h1>
+    </div>
+    <div class="clear"></div>
+
+    <div class="my_demo">
+      <div class="fl_text">
+        <img
+          src="https://desktime.com/assets/img/features/new/pomodoro@2x.png"
+        />
+      </div>
+      <div class="fl_text">
+        <h1>Pomodoro timer</h1>
+        <p>
+          Make sure your team not only works hard but <br />
+          also remembers to take breaks to avoid <br />
+          burnouts. Activate the built-in Pomodoro timer <br />that will remind
+          you to take a pause from work <br />every 52, 60 or 90 minutes.
+        </p>
+        <div>More about Pomodoro</div>
+      </div>
+    </div>
+
+    <div class="clear"></div>
+    <div class="my_demo when_no_bg">
+      <div class="fl_text">
+        <h1>Private time option</h1>
+        <p>
+          Let your employees feel safe when they need to <br />
+          quickly do something work-unrelated during<br />
+          office hours. Anyone at any time can turn on the<br />
+          Private time feature, and while it's on, the time <br />
+          and websites used won't be tracked.
+        </p>
+        <div>More about Privacy</div>
+      </div>
+      <div class="fl_text">
+        <img
+          src="https://desktime.com/assets/img/features/new/private-time@2x.png"
+        />
+      </div>
+    </div>
+
+    <div class="clear"></div>
+    <div class="green_box">
+      <h1>Keep up-to-date with your team’s activity</h1>
+    </div>
+
+    <dic class="clear"></dic>
+    <div class="my_demo">
+      <div class="fl_text">
+        <img
+          src="https://desktime.com/assets/img/features/new/schedules@2x.png"
+        />
+      </div>
+      <div class="fl_text">
+        <h1>Work Schedules</h1>
+        <p>
+          Plan and schedule your team's shifts more <br />effectively and 6x
+          faster than when using<br />
+          spreadsheets. See a complete daily, weekly, and <br />monthly overview
+          of shifts, avoid overstaffing and<br />
+          understaffing, and<br />
+          track your shift workers'<br />
+          productivity with ease.
+        </p>
+
+        <div>More about Schedule</div>
+      </div>
+    </div>
+    <div class="clear"></div>
+    <div class="my_demo when_no_bg">
+      <div class="fl_text">
+        <h1>Mobile app</h1>
+        <p>
+          Oversee the performance of your team not only <br />from your desktop
+          but also from your iPhone or <br />
+          Android device. Use the DeskTime mobile app to <br />
+          log details about your offline time and get access <br />
+          to your company’s performance reports while on<br />
+          the go.
+        </p>
+        <div>More about Privacy</div>
+      </div>
+      <div class="fl_text">
+        <img
+          src="https://desktime.com/assets/img/features/new/platforms@2x.png"
+        />
+      </div>
+    </div>
+
+    <dic class="clear"></dic>
+    <div class="my_demo">
+      <div class="fl_text">
+        <img
+          src="https://desktime.com/assets/img/features/new/integrations@2x.png"
+        />
+      </div>
+      <div class="fl_text">
+        <h1>
+          Integrations with 3rd <br />
+          party apps
+        </h1>
+        <p>
+          Simplify your company’s workflow with DeskTime <br />
+          integrations - from calendar apps to help you <br />
+          track offline time, to project management <br />
+          software to make project and task tracking <br />
+          accurate, while effortless.
+        </p>
+
+        <div>More about Integrations</div>
+      </div>
+    </div>
+
+    <div class="clear"></div>
+    <div class="my_demo when_no_bg">
+      <div class="fl_text">
+        <h1>Invoicing</h1>
+        <p>
+          Use your tracked time to create and issue precise<br />
+          invoices to your clients. Gain an overview of sent<br />
+          invoices, as well as their payment status. And <br />send them
+          automated reminders when an invoice <br />is overdue..
+        </p>
+        <div>More about Invoicing</div>
+      </div>
+      <div class="fl_text">
+        <img
+          src="https://desktime.com/assets/img/features/new/invoicing@2x.png"
+        />
+      </div>
+    </div>
+    <dic class="clear"></dic>
+    <div class="my_demo">
+      <div class="fl_text">
+        <img
+          src="https://desktime.com/assets/img/features/new/integrations@2x.png"
+        />
+      </div>
+      <div class="fl_text">
+        <h1>Custom reports</h1>
+        <p>
+          Customize reports with the help of various filters <br />
+          to see the exact data you need. For example, use<br />
+          DeskTime Reports to create reports about the<br />
+          company’s productivity status, websites used at<br />
+          work or time spent on specific tasks. Then share, <br />
+          print, or export them to CSV.
+        </p>
+      </div>
+    </div>
+    <!-- <footear> -->
+    <div class="footear">
+      <div class="bottom-container">
+        <ul class="ul">
+          <p>DeskTime</p>
+          <li>Terms</li>
+          <li>Privacy</li>
+          <li>Cookies</li>
+          <li>Affiliate terms</li>
+          <li>Download app</li>
+          <li>Pricing</li>
+          <li>Affiliate</li>
+          <li>Press</li>
+          <li>DeskTime in your language</li>
+        </ul>
+        <ul class="ul">
+          <p>Learn more</p>
+          <li>Employee time tracking</li>
+          <li>Online employee time clock</li>
+          <li>Best time tracking apps</li>
+          <li>DeskTime for Business</li>
+          <li>DeskTime for Freelancers</li>
+          <li>FAQ</li>
+          <li>Case Studies</li>
+          <li>Webinars</li>
+          <li>Blog</li>
+        </ul>
+        <ul class="ul">
+          <p>Integrations</p>
+          <li>Trello</li>
+          <li>Basecamp</li>
+          <li>Jira</li>
+          <li>Asana</li>
+          <li>Outlook Calendar</li>
+          <li>Google Calendar</li>
+          <li></li>
+          <li></li>
+        </ul>
+        <ul class="ul">
+          <p>Features</p>
+          <li>Automatic time tracking</li>
+          <li>URL & App tracking</li>
+          <li>Screenshots</li>
+          <li>Project time tracking</li>
+          <li>Offline time tracking</li>
+          <li>Invoicing</li>
+          <li>Absence Calendar</li>
+          <li>Mobile app</li>
+          <li>Feature requests</li>
+        </ul>
+        <ul class="ul">
+          <p>Contacts</p>
+          <li>Schedule a call</li>
+          <li>Send us an e-mail</li>
+          <li>Request In-person training</li>
+          <li>Open Chat</li>
+        </ul>
+      </div>
+      <div class="clear"></div>
+    </div>
+    <div class="last-footear">
+      <div class="float-right-footear">
+        <div class="app-store-img">
+          <img
+            src="https://freeiconshop.com/wp-content/uploads/edd/google-play-badge-128x128.png"
+            alt=""
+          />
+          <img
+            src="https://manners4minors.com/wp-content/uploads/2016/06/app-store-badge.png"
+            alt=""
+          />
+        </div>
+        <div class="all-icon">
+          <i class="fa fa-facebook-f"
+            ><a href="https://www.facebook.com/desktime/" target="_blank"></a
+          ></i>
+          <i class="fa fa-twitter"></i>
+          <i class="fa fa-youtube-play"></i>
+          <i class="fa fa-linkedin-square"></i>
+        </div>
+      </div>
+      <div class="float-left-footear">
+        <a href="">
+          <img
+            style="float: left"
+            src="https://desktime.com/assets/img/logo/symbol.svg"
+            alt=""
+          />
+        </a>
+
+        <p class="para margin-top">SIA DeskTime</p>
+        <p class="para">O.Vaciesa street 6B, Riga, Latvia, LV-1004</p>
+      </div>
+      <div class="clear"></div>
+    </div>
+    <div class="copywrite">
+      <div class="float-left-footear float-left">
+        <p>&copy;2011-2020 DeskTime.All rights reserved</p>
+      </div>
+      <div class="float-right-footear float-right">
+        <a href=""
+          ><img
+            src="https://desktime.com/assets/img/draugiem-group.svg"
+            alt=""
+          />
+        </a>
+      </div>
+    </div>
+  </body>
+</html>

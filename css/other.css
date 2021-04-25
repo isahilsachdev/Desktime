@@ -1,0 +1,244 @@
+
+body{
+    margin: 0%;
+    padding: 0%;
+}
+.container{
+    /* border: 1px solid black; */
+    width:88%;
+    height: 300px;
+    margin: 30px auto;
+}
+.left{
+   /* border: solid black 1px; */
+    width:43%;
+    height: 100%;
+}
+.right{
+    /* border: solid red 1px; */
+    width:55%;
+    height: 100%;
+}
+.float-left{
+    float: left;
+}
+.float-right{
+    float: right;
+}
+.left>div:first-child{
+    font-size: 35px;
+    color: rgb(47, 49, 54);
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.image{
+    /* height: 250px;
+    width: 530px; */
+    width: 100%;
+    height: 100%;
+}
+.left>div:nth-child(2){
+    margin: 15px 0px 30px 0px;
+    font-family: sans-serif,Georgia, 'Times New Roman', Times, serif;
+    line-height: 150%;
+    font-size: 22px;
+}
+
+.button>a{
+    border-radius:3px;
+    background-color: #5fb92a;
+    padding: 9px 18px;
+    text-decoration: none;
+    color: white;
+    font-size: 22px;
+    font-family: monospace;
+    font-weight: bolder;
+    
+}
+.clear{
+    clear: both;
+}
+.container2-inside{
+    padding-top:60px ;
+    height: 380px;
+    margin: 30px auto;
+}
+.container-2{
+    width: 100%;
+    background-color:#f3f4f5;
+}
+.container2-right{
+    margin: 20px 35px 0px 0px;
+    width: 38%;
+}
+.image1{
+    /* border: coral solid 1px; */
+    display: block;
+    margin: auto;
+}
+.flexxx{
+    display:flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    background-color: #f3f4f5;
+   
+}
+.flex-itemms{
+    /* border: coral 1px solid; */
+    width: 32%;
+    padding: 80px 0px;
+}
+.flexedit{
+    flex-basis: 50%;
+
+}
+.bold-font{
+    font-size: 35px;
+    color: rgb(47, 49, 54);
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.font{
+    font-family: sans-serif,Georgia, 'Times New Roman', Times, serif;
+    line-height: 150%;
+    font-size: 22px;
+    color: rgb(47, 49, 54);
+}
+.small-font{
+    font-family: sans-serif,Georgia, 'Times New Roman', Times, serif;
+    line-height: 150%;
+    font-size: 16px;
+    color: rgb(47, 49, 54);
+}
+.margin{
+    margin: 15px 0px;
+}
+/* <!-- <ready for trial> --> */
+.ready-for-trial{
+    background-color: #5fb92a;
+    width: 100%;
+    height: 150px;
+    margin: 50px 0px;
+}
+.ready-for-trial-ic{
+    width: 60%;
+    
+    margin: auto;
+    padding:40px ;
+}
+.button-ready-trial{
+    
+    padding: 12px 35px;
+    width: fit-content;
+    border-radius: 3px;
+    text-align: center;
+    background-color: white;
+    color: #5fb92a;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+.fortrial-font-large{
+    font-family: monospace;
+    margin-bottom:10px;
+    font-size: 28px;
+}
+.fortrial-font-small{
+    font-family: sans-serif,Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+    color: white;
+}
+.white-color{
+    color: white;
+}
+.remove-deco{
+    text-decoration:none;
+}
+.ul{
+   list-style-type: none; 
+   padding: 0%;
+  cursor: pointer;
+}
+li>i{
+    color: #5fb92a;
+    margin-right: 15px;
+    
+}
+.bottom-container{
+    /* border: blue 1px solid; */
+    margin: 30px auto;
+    width: 85%;
+}
+.bottom-container>ul{
+    float: left;    
+    /* border: solid black 1px; */
+    width: 19%;
+    font-family: sans-serif,Georgia, 'Times New Roman', Times, serif;
+    line-height: 150%;
+    font-size: 16px;
+    color: rgb(47, 49, 54);
+    
+}
+.ul>p{
+    font-family: sans-serif,Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    color: rgb(47, 49, 54);
+    font-weight: bold;
+}
+.bottom-container>.ul>li:hover{
+    color: #5fb92a;
+}
+.bottom-container>.ul>p:hover{
+    color: #5fb92a;
+}
+.last-footear{
+    border: white 1px solid;      /**<-don remove this border-> **/
+    width: 100%;
+    height: 170px;
+}
+
+.all-icon>i{
+   font-size: 35px;
+   color: rgb(87, 87, 87);
+   margin: 60px 10px 10px 10px; 
+   
+}
+.all-icon>i:hover{
+    color: rgb(31, 31, 31);
+    cursor:pointer;
+}
+.app-store-img>img{
+    height: 130px;
+    width: 150px;
+    margin: 10px; 
+    
+}
+.app-store-img>img:hover{
+    cursor: pointer;
+}
+.app-store-img,.all-icon{
+    float: right;
+    margin-right: 20px;
+}
+.para{
+    font-family: sans-serif,Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+    color: rgb(97, 97, 97);
+    margin: 0px 50px 5px 80px;
+ 
+}
+.margin-top{
+    margin-top: 55px;
+}
+.float-left-footear{
+    margin-left: 100px;
+}
+.float-right-footear{
+    margin-right: 70px;
+}
+.copywrite{
+   padding: 20px;
+   background-color: #ececec;
+   height: 50px;
+}
